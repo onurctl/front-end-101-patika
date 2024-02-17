@@ -1,2 +1,2 @@
 # front-end-101-patika
-Front-end 101
+patika.dev front-end 101 eğitiminde uygulanan çalışmalar.
