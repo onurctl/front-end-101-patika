@@ -1,0 +1,94 @@
+/* genel düzenleme: */
+
+body {
+    margin: 0 auto;
+}
+
+.font{
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    height: 70px;
+}
+
+.bg-search {
+    background-color: gainsboro;
+}
+
+.input-area{
+    margin: 0 auto;
+}
+
+#gsearch {
+    border: 0.5px solid gray;
+    height: 20px;
+    width: 300px;
+}
+
+.btn1 {
+    padding: 1px 2px;
+    float: left;
+    width: 105px;
+    height: 21px;
+    margin-left: 42%;
+}
+
+.btn2 {
+    padding: 1px 2px;
+    float: left;
+    width: 112px;
+    height: 21px;
+}
+
+.img {
+    height: 120px;
+    width: 350px;
+    margin: auto;
+}
+
+.link{
+   
+    text-decoration: underline;
+}
+
+.center {
+    text-align: center;
+
+}
+
+/* içerik alanı: */
+
+.box-1 {
+    margin-top: 2px;
+    height: 85px;
+    width: 38%;
+    float: left;
+    background-color:rgb(119, 196, 197);
+    margin-right: 2px;
+} 
+
+.box-2 {
+    margin-top: 2px;
+    height: 85px;
+    width:  22%;
+    float: left;
+    background-color: rgb(119, 196, 197);
+} 
+
+.box-3 {
+    margin-top: 2px;
+    height: 85px;
+    width: 39.5%;
+    float: left;
+    background-color: rgb(119, 196, 197);
+    margin-left: 2px;
+} 
+
+p.margin {
+    margin: 1px;
+}
