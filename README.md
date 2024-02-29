@@ -1,2 +1,2 @@
 # Front-end 101 - Patika
-patika.dev front-end 101 eğitiminde uygulanan çalışmalar.
+Patika.dev front-end 101 eğitiminde yapılan çalışmalardan oluşan repository.
