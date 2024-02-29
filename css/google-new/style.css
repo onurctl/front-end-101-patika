@@ -1,0 +1,165 @@
+/* general style: */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+/* link style: */
+a {
+  text-decoration: none; 
+  color: inherit; 
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+/* header menu: */
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+header nav a{
+  font-size: 13px;
+}
+
+.menu-item{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+}
+
+.menu-item:hover{
+  background-color: gainsboro;
+}
+
+/* center logo: */
+.g-logo{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.menu-item img{
+  width: 24px ;
+  height: 24px;
+}
+
+.menu-item-2 img{
+  width: 32px;
+  height: 28px;
+  border-radius: 100%;
+}
+
+.search-area{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.search-box{
+  width: 584px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  border: 1px solid #f2f2f2;
+  border-radius: 24px;
+  padding:0px 14px;
+
+}
+
+.search-box:hover{
+  box-shadow: 0 1px 6px gainsboro;
+  border-color: whitesmoke;
+}
+
+.search-box input{
+  flex: 1;
+  margin: 0 15px;
+  border: none;
+  outline: none;
+}
+
+.search_icon{
+  width: 20px;
+  height: 20px;
+}
+
+.search-icons{
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+.search-icons img{
+  width: 24px;
+  height: 24px;
+}
+
+.search-buttons{
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.search-buttons button{
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: black;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  user-select: none;
+}
+
+.search-buttons button:hover{
+  box-shadow: 0 1px 1px rgba(0,0,0,.1);
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124; 
+}
+
+.search-buttons button:focus{
+  border: 1px solid blue;
+  outline: none;
+}
+
+footer{
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 48px;
+}
+
+footer div{
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+}
